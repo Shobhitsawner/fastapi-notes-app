@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Note</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>✏️ Edit Note</h1>
+
+<form action="/update/{{ note.id }}" method="post">
+    <input type="text" name="title" value="{{ note.title }}" required>
+    <textarea name="content" required>{{ note.content }}</textarea>
+    <button type="submit">Update Note</button>
+</form>
+
+<br>
+<a href="/">⬅ Back</a>
+
+</body>
+</html>
