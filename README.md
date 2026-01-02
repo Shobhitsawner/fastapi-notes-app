@@ -33,7 +33,7 @@ This project demonstrates backend–frontend integration with full **CRUD functi
 ---
 
 ## 📁 Project Structure
-fastapi-notes-app/
+notes_app/
 │── main.py
 │── database.py
 │── models.py
