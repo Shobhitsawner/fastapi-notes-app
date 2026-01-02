@@ -28,7 +28,7 @@ This project demonstrates backend–frontend integration with full **CRUD functi
 - Jinja2 Templates
 
 **Database**
-- SQLite
+- MySQL
 
 ---
 
